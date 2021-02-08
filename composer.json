@@ -1,0 +1,25 @@
+{
+    "name": "chaser/api-lib",
+    "description": "This is test api lib",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "elisdn/php-hydrator": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chaser\\": "src",
+            "Tests\\" : "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danil Kuznetsov",
+            "email": "danil.kuznetsov@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
